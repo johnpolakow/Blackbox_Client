@@ -4,7 +4,7 @@ Client code for connecting to Pi server. At the moment requires specifying the I
 To change IP address of server, open client.c and edit the address of the line:
 #define DEFAULT_SERVER_IP             "192.168.123.4"
 
-leave DEFAULT_SERVER_PORT the same
+leave parameter DEFAULT_SERVER_PORT the same, do not change
 
-Compile with:
+## Compiling
 gcc -o client client.c
